@@ -63,4 +63,10 @@ describe('Thermostat', function() {
       expect(thermostat.getCurrentTemperature()).toEqual(32);
     });
   });
+
+  it('resets the temperature to 20', function() {
+    thermostat.up();
+    thermostat.reset();
+    expect(thermostat.getCurrentTemperature()).toEqual(20);
+  })
 });
