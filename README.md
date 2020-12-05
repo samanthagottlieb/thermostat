@@ -2,7 +2,7 @@
 
 Makers Academy - Week 6 Challenge
 
-## The Project
+## The Project
 
 * Build the business logic to model a simple thermostat
 * Hook it up to a dynamic visual interface using jQuery
