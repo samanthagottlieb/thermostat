@@ -23,8 +23,8 @@ $(document).ready(function() {
   })
 
   $('#temperature-down').click(function() {
-  thermostat.down();
-  updateTemperature();
+    thermostat.down();
+    updateTemperature();
   })
 
   $('#temperature-reset').click(function() {
